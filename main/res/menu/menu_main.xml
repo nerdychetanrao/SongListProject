@@ -1,0 +1,27 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.chetan.songlist.MainActivity">
+
+    <item
+        android:id="@+id/add_song"
+        android:orderInCategory="100"
+        android:title="@string/add_song"
+        app:showAsAction="never" />
+    <item
+            android:id="@+id/delete_song"
+            android:orderInCategory="100"
+            android:title="@string/delete_song"
+        app:showAsAction="never">
+        <menu>
+
+
+        </menu>
+    </item>
+
+    <item
+        android:id="@+id/exit_app"
+        android:orderInCategory="100"
+        android:title="@string/exit_app"
+        app:showAsAction="never" />
+</menu>
